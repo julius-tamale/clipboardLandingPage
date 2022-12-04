@@ -27,19 +27,13 @@ header {
     align-items: center;
 }
 h1 {
-    text-align: center;
     padding: 0 50px;
-    color: var(--dark-grayish-blue);
-    margin-bottom: 25px;
     font-weight: 600;
 }
-.section-one p {
-    text-align: center;
+/*.section-one p {
     padding: 0 15px;
-    color: var(--grayish-blue);
-    font-weight: 400;
     margin-bottom: 30px;
-}
+}*/
 .section-one-buttons {
     width: 100%;
 }
@@ -61,5 +55,56 @@ h1 {
 }
 .section-one-buttons button:nth-child(2) {
     background-color: var(--light-blue);
+    margin-bottom: 100px;
+}
+
+h3, h2, h1 {
+    text-align: center;
+    color: var(--dark-grayish-blue);
+}
+.section-two h2 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+p {
+    color: var(--grayish-blue);
+    text-align: center;
+    padding: 20px 20px 50px;
+}
+.section-three,
+.section-four {
+    width: 100%;
+}
+.section-three img,
+.section-four img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto 50px;
+}
+.section-four img {
+    margin-bottom: 100px;
+}
+.section-four {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.section-four h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+.section-five div img {
+    display: block;
+    margin: 0 auto 35px;
+    width: 70px;
+}
+.section-five {
+    margin-bottom: 70px;
+}
+.section-six img{
+    display: block;
+    margin: 0 auto 70px;
+}
+.section-six img:last-of-type {
     margin-bottom: 100px;
 }
