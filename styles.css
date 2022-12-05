@@ -15,9 +15,11 @@
 body {
     font-size: 18px;
     font-family: var(--font);
+    /*background: #E8E9EB;*/
 }
 header {
-    background: url(images/bg-header-mobile.png);
+    background: url(images/bg-header-mobile.png) no-repeat;
+    background-size: cover;
     padding-top: 100px;
     padding-bottom: 50px;
     display: flex;
@@ -138,4 +140,37 @@ footer {
 .section-nine a:hover {
     color: var(--dark-grayish-blue);
     text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    header {
+        background-size: cover;
+        margin-bottom: 50px;
+    }
+    .section-one-buttons,
+    .section-seven div {
+        width: 100%;
+        text-align: center;
+    }
+    .section-one-buttons button,
+    .section-seven div button {
+        max-width: 40%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .logo-svg {
+        width: 20px;
+    }
+    .section-one-buttons,
+    .section-seven div {
+        width: 100%;
+        text-align: center;
+    }
+    .section-one-buttons button,
+    .section-seven div button {
+        max-width: 40%;
+        display: inline-block;
+    }
 }
