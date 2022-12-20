@@ -1,176 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dk-gy-blue: hsl(210, 10%, 33%);
+    --gy-blue: hsl(201, 11%, 66%);
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root {
-    --strong-cyan: hsl(171, 66%, 44%);
-    --light-blue: hsl(233, 100%, 69%);
-    --dark-grayish-blue: hsl(210, 10%, 33%);
-    --grayish-blue: hsl(201, 11%, 66%);
-    --font: 'Bai Jamjuree', sans-serif;
-}
+
 body {
     font-size: 18px;
-    font-family: var(--font);
-    /*background: #E8E9EB;*/
+    /*background: #E3E5E7;*/
 }
+
+/*===header styles start ===*/
 header {
     background: url(images/bg-header-mobile.png) no-repeat;
     background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-h1 {
-    padding: 0 50px;
-    font-weight: 600;
-}
-.section-one-buttons {
+    max-width: 100%;
     width: 100%;
-}
-.section-one-buttons button,
-.section-seven div button {
-    border-radius: 25px;
-    font-size: 18px;
-    margin: 0 auto;
-    padding: 15px 50px;
-    border: none;
-    color: #fff;
-    font-weight: 600;
-    display: block;
-    width: 85%;
-}
-.section-one-buttons button:first-of-type,
-.section-seven div button:first-of-type {
-    background-color: var(--strong-cyan);
-    margin: 0 auto 15px;
+    height: 100vh;
+    /*display: flex;
+    justify-content: center;*/
     
 }
-.section-one-buttons button:nth-child(2),
-.section-seven div button:nth-child(2) {
-    background-color: var(--light-blue);
-    margin-bottom: 100px;
-}
-button:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-h3, h2, h1 {
-    text-align: center;
-    color: var(--dark-grayish-blue);
-}
-.section-two h2 {
-    padding-right: 30px;
-    padding-left: 30px;
-}
-p {
-    color: var(--grayish-blue);
-    text-align: center;
-    padding: 20px 20px 50px;
-}
-.section-three,
-.section-four {
-    width: 100%;
-}
-.section-three img,
-.section-four img {
-    max-width: 80%;
+header img {
     display: block;
-    margin: 0 auto 50px;
-}
-.section-four img {
-    margin-bottom: 100px;
-}
-.section-four {
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-.section-four h2 {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-transform: capitalize;
-}
-.section-five div img {
-    display: block;
-    margin: 0 auto 35px;
     width: 70px;
-}
-.section-five {
-    margin-bottom: 70px;
-}
-.section-six img{
-    display: block;
-    margin: 0 auto 70px;
-}
-.section-six img:last-of-type {
-    margin-bottom: 100px;
-}
-footer {
-    background: #F5F6F8;
-}
-.section-eight img {
-    width: 70px;
-    display: block;
+    padding: 70px 0;
     margin: 0 auto;
-    padding: 50px 0;
 }
-.section-eight div:first-of-type {
+/*===header styles end ===*/
+
+/*===section-one styles start===*/
+.section-one {
+    /*background-color: red;*/
+    text-align: center;
+    margin: 0 0 75px;
+}
+.section-one h1 {
+    padding: 0 25px;
+    margin-bottom: 25px;
+}
+.section-one p {
+    margin: 0 40px 50px;
+}
+.section-one-buttons {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
 }
-.section-eight div a {
-    display: block;
-    text-decoration: none;
-    color: var(--dark-grayish-blue);
-    margin-bottom: 15px;
+.section-one-buttons button {
+    width: 80%;
+    padding: 20px 0;
+    font-size: 18px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 600;
 }
-.section-eight div a:hover {
-    color: var(--strong-cyan);
+.section-one-buttons button:first-of-type {
+    background: var(--strong-cyan);
+    margin-bottom: 20px;
 }
-.section-nine a {
-    text-decoration: none;
-    color: var(--strong-cyan);
+.section-one-buttons button:nth-of-type(2) {
+    background: var(--light-blue);
 }
-.section-nine a:hover {
-    color: var(--dark-grayish-blue);
-    text-decoration: underline;
-}
-
-@media screen and (min-width: 768px) and (max-width: 900px) {
-    header {
-        background-size: cover;
-        margin-bottom: 50px;
-    }
-    .section-one-buttons,
-    .section-seven div {
-        width: 100%;
-        text-align: center;
-    }
-    .section-one-buttons button,
-    .section-seven div button {
-        max-width: 40%;
-        display: inline-block;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .logo-svg {
-        width: 20px;
-    }
-    .section-one-buttons,
-    .section-seven div {
-        width: 100%;
-        text-align: center;
-    }
-    .section-one-buttons button,
-    .section-seven div button {
-        max-width: 40%;
-        display: inline-block;
-    }
-}
+/*===section-one styles end===*/
