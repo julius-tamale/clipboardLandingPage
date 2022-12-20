@@ -210,3 +210,66 @@ footer {
         margin-top: 75px;
     }
 }
+
+@media screen and (min-width: 1080px){
+    header {
+        background: url(images/bg-header-desktop.png) no-repeat;
+        background-size: cover;
+    }
+    .section-one-buttons {
+        flex-direction: row;
+    }
+    .section-one-buttons button,
+    .section-seven button {
+        width: 25%;
+        margin: 0 10px;
+    }
+    .section-one-buttons button:first-of-type,
+    .section-seven button:first-of-type {
+        margin-bottom: 0;
+    }
+    .section-three {
+        display: flex;
+        align-items: center;
+        margin-left: -75px;
+    }
+    .section-three-text-div {
+        text-align: justify;
+        margin: 0 70px;
+    }
+    .section-three-text-div p {
+        margin: 0 0 50px;
+    }
+    .section-four {
+        height: 100vh;
+        margin-bottom: 350px;
+    }
+    .section-four img {
+        margin-bottom: 0;
+    }
+    .section-five {
+        display: flex;
+        /*margin-top: 100px;*/
+    }
+    .section-six {
+        display: flex;
+    }
+    /*.links {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }*/
+    .section-eight {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .links a {
+        margin-right: 25px;
+    }
+}
