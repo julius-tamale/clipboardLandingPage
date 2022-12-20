@@ -53,7 +53,8 @@ header img {
     justify-content: center;
     flex-direction: column;
 }
-.section-one-buttons button {
+.section-one-buttons button,
+.section-seven button {
     width: 80%;
     padding: 20px 0;
     font-size: 18px;
@@ -63,11 +64,140 @@ header img {
     color: #fff;
     font-weight: 600;
 }
-.section-one-buttons button:first-of-type {
+.section-one-buttons button:first-of-type,
+.section-seven button:first-of-type {
     background: var(--strong-cyan);
     margin-bottom: 20px;
 }
-.section-one-buttons button:nth-of-type(2) {
+.section-one-buttons button:nth-of-type(2),
+.section-seven button:nth-of-type(2) {
     background: var(--light-blue);
 }
+button:hover {
+    opacity: 0.65;
+}
 /*===section-one styles end===*/
+
+/*===section-two styles start===*/
+.section-two {
+    text-align: center;
+    margin-bottom: 70px;
+    /*background: red;*/
+}
+.section-two h2 {
+    margin: 0 50px 20px;
+}
+.section-two p {
+    margin: 0 50px;
+}
+/*===section-two styles end===*/
+
+/*===section-three styles start===*/
+.section-three {
+    max-width: 100%;
+    text-align: center;
+}
+.section-three img {
+    width: 80%;
+    display: block;
+    margin: 0 auto 70px;
+
+}
+.section-three-text-div h3 {
+    margin-bottom: 15px;
+}
+.section-three-text-div p {
+    margin: 0 50px 50px;
+}
+.section-three-text-div p:last-of-type {
+    margin-bottom: 150px;
+}
+/*===section-three styles end===*/
+
+/*===section-four styles start===*/
+.section-four {
+    height: 100vh;
+    max-width: 100%;
+    text-align: center;
+}
+.section-four h2 {
+    margin: 0 50px 30px;
+    text-transform: capitalize;
+}
+.section-four img {
+    width: 90%;
+    display: block;
+    margin: 70px auto 100px;
+}
+.section-four h1 {
+    margin: 0 50px 15px;
+}
+.section-four p {
+    margin: 0 40px;
+}
+/*===section-four styles end===*/
+
+/*===section-five styles start===*/
+.section-five {
+    /*height: 100vh;*/
+    text-align: center;
+}
+.section-five img {
+    margin-bottom: 50px;
+}
+.section-five h2 {
+    margin-bottom: 25px;
+}
+.section-five p {
+    margin: 0 30px 50px;
+}
+/*===section-five styles end===*/
+
+/*===section-six styles start===*/
+.section-six {
+    margin: 200px 0;
+}
+.section-six img {
+    display: block;
+    margin: 0 auto 50px;
+}
+/*===section-six styles end===*/
+
+/*===section-seven styles start===*/
+.section-seven {
+    margin-bottom: 150px;
+    text-align: center;
+}
+.section-seven h1 {
+    margin: 0 50px 20px;
+}
+.section-seven p {
+    margin: 0 50px 25px;
+}
+/*===section-seven styles end===*/
+
+/*footer styles start*/
+footer {
+    background: #F5F6F8;
+}
+.section-eight img {
+    display: block;
+    width: 50px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+.links {
+    text-align: center;
+}
+.links a {
+    display: block;
+    text-decoration: none;
+    color: var(--dk-gy-blue);
+    margin-bottom: 25px;
+}
+.links a:hover {
+    color: var(--strong-cyan);
+}
+.section-nine {
+    display: none;
+}
