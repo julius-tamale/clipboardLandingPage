@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/clipboard-landing-page-screenshot.png)
+![](images/screenshot.png)
 
 ### Links
 
