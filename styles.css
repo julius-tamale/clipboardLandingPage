@@ -244,6 +244,9 @@ footer {
 }
 
 @media screen and (min-width: 1080px){
+    /*body {
+        font-size: 20px;
+    }*/
     header {
         background: url(images/bg-header-desktop.png) no-repeat;
         background-size: cover;
@@ -269,39 +272,53 @@ footer {
         text-align: justify;
         margin: 0 70px;
     }
+    .section-one p {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .section-two p,
+    .section-four p:first-of-type {
+        margin-left: 270px;
+        margin-right: 270px;
+    }
     .section-three-text-div p {
         margin: 0 0 50px;
     }
     .section-four {
         height: 100vh;
-        margin-bottom: 350px;
+        margin-bottom: 450px;
     }
     .section-four img {
         margin-bottom: 0;
     }
     .section-five {
-        display: flex;
-        /*margin-top: 100px;*/
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .section-five p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .section-seven p {
+        margin: 0 270px 70px;
+
     }
     .section-six {
         display: flex;
     }
-    /*.links {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }*/
     .section-eight {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
     .links {
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
+        align-items: center;
     }
     .links a {
-        margin-right: 25px;
+        margin-right: 50px;
+        margin-bottom: 0;
     }
 }
