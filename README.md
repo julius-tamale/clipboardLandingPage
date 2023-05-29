@@ -1,42 +1,41 @@
-# Frontend Mentor - Clipboard landing page solution
+# Clipboard landing page
 
-This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a clipboard landing page implemented using HTML, CSS, and JavaScript. It includes responsive web design, a floating "scroll to top" button, and the use of semantic HTML.
 
-## Table of contents
+# Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Features](#features)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
 - [Author](#author)
 
-## Overview
+# Overview
 
-### The challenge
+The Clipboard Landing Page project aims to create a visually appealing landing page for a clipboard application. It showcases the application's features and benefits and provides users with a convenient way to scroll back to the top of the page.
 
-Users should be able to:
+### Features
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- **Responsive Web Design**: The landing page is designed to be responsive, ensuring a seamless user experience across various devices and screen sizes.
+
+- **Floating "Scroll to Top" Button**: The project includes a JavaScript implementation of a floating button that appears when the user scrolls down a certain distance. Clicking on the button smoothly scrolls the page back to the top.
+
+- **Semantic HTML**: The project utilizes semantic HTML elements to structure the page and provide meaningful information to assistive technologies and search engines.
+
+
 
 ### Screenshot
 
 ![](images/screenshot.png)
 
+### Learning Highlights
+
+- **Floating Button Implementation**: Using JavaScript, a floating "scroll to top" button was implemented. This involved detecting the scroll position and dynamically showing or hiding the button accordingly. The smooth scrolling effect was achieved using the window.scrollTo method with the behavior: 'smooth' option.
+
 ### Links
 
 - Solution URL: [Github repo](https://github.com/julius-tamale/clipboardLandingPage)
 - Live Site URL: [Clipboard landing page](https://fmclipboard.netlify.app)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
 
 ## Author
 
